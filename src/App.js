@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import CreateArea from "./components/CreateArea";
 import { useState } from "react";
 import Note from "./components/Note";
+import Footer from "./components/Foooter";
 
 function App() {
   const [notes, setNotes] = useState([]);
@@ -12,6 +13,14 @@ function App() {
       return [...prevNotes, newNote];
     });
     console.log(notes);
+  }
+
+  function deleteNote(id) {
+    setNotes((prevNotes) => {
+      return prevNotes.filter((noteItem, index) => {
+        return index !== id;
+      });
+    });
   }
 
   return (
@@ -25,10 +34,11 @@ function App() {
             id={index}
             title={noteItem.title}
             content={noteItem.content}
+            onDelete={deleteNote}
           />
         );
       })}
-      ;
+      <Footer />
     </div>
   );
 }
