@@ -1,12 +1,11 @@
 import React from "react";
-import { IoMdFlashlight } from "react-icons/io";
-import "./Header.module.css";
+import HighlightIcon from "@mui/icons-material/Highlight";
 
 function Header() {
   return (
     <header>
       <h1>
-        <IoMdFlashlight />
+        <HighlightIcon />
         ToDoList
       </h1>
     </header>
