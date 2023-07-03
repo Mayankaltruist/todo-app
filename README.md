@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a Todo app created using Create React App. It allows users to add and manage tasks with titles and descriptions.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+To use this app, follow the instructions below:
 
-### `npm start`
+1. Make sure you have Node.js installed on your machine. You can download it from [https://nodejs.org](https://nodejs.org).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Clone this repository to your local machine or download the source code as a ZIP file.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Open a terminal or command prompt and navigate to the project directory.
 
-### `npm test`
+4. Run the following command to install the dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```shell
+npm install
+```
 
-### `npm run build`
+```shell
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This will start a development server and open the app in your default web browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+After successfully installing and starting the app, you can use it as follows:
 
-### `npm run eject`
+1. In the UI, you will see a card with two input fields: one for the title of the task and the other for the task's note or description.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Enter the task title and note in the respective input fields.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Click the "Add" button to add the task.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. The task will be displayed as a card with the task title and note.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. To delete a task, click the "Delete" button on the task card.
 
-## Learn More
+6. You can add multiple tasks and manage them using the same process.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+7. Customize the app's functionality and styling by modifying the source code to suit your specific needs.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Dependencies
+This app utilizes the following dependencies:
 
-### Code Splitting
+- "@emotion/react": "^11.11.0"
+- "@emotion/styled": "^11.11.0"
+- "@mui/icons-material": "^5.11.16"
+- "@mui/material": "^5.12.3"
+- "@testing-library/jest-dom": "^5.16.5"
+- "@testing-library/react": "^13.4.0"
+- "@testing-library/user-event": "^13.5.0"
+- "react": "^18.2.0"
+- "react-dom": "^18.2.0"
+- "react-icons": "^4.8.0"
+- "react-scripts": "5.0.1"
+- "web-vitals": "^2.1.4"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Please ensure these dependencies are installed when using the app.
